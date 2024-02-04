@@ -106,17 +106,19 @@
     <main>
       <div class="container">
         <h2 class="fw-normal text-center mt-5">ФУНКЦИОНАЛ</h2>
-        <p class="text-center text-secondary col-4 mx-auto mt-3">
+        <p class="text-center text-secondary col-4 mx-auto mt-3 info-text">
           Moveon поможет найти единомышленников и собрать большую компанию в
           одном месте.
         </p>
 
         <div class="row mt-5">
-          <div class=" column1 col-lg-4 col-12 pe-5 d-flex flex-column justify-content-evenly">
-            <div class="d-flex align-items-center justify-content-between ">
-              <div class="text-start ms-3">
+          <div
+            class="column1 col-lg-4 col-12 pe-5 d-flex flex-column justify-content-evenly"
+          >
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="text-end me-3">
                 <h4>Присоединяйся к событиям</h4>
-                <p>
+                <p class="text-end">
                   Находи интерисующии тебя события на главном экране и жми хочу
                   пойти
                 </p>
@@ -125,19 +127,21 @@
                 <i class="fal fa-paperclip"></i>
               </div>
             </div>
-            <div class="d-flex align-items-center justify-content-between my-5">
-              <div class="text-start ms-3">
+            <div class="d-flex align-items-center justify-content-end my-5">
+              <div class="text-end me-3">
                 <h4>Ищи события по фильтрам</h4>
-                <p>Для поиска событий мы предлагаем более 10 фильтров</p>
+                <p class="text-end">
+                  Для поиска событий мы предлагаем более 10 фильтров
+                </p>
               </div>
               <div class="info-icon">
                 <i class="fal fa-calendar-alt"></i>
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-between">
-              <div class="text-start ms-3">
+              <div class="text-end me-3">
                 <h4>Куда пойдут твои друзья?</h4>
-                <p>
+                <p class="text-end">
                   В любом профиле видны все события которые посещал пользователь
                   или на которые планирует пойти
                 </p>
@@ -147,41 +151,40 @@
               </div>
             </div>
           </div>
-          <div class=" column2 col-lg-4 col-12">
-            <img src="./img/mid_phone.png" alt="midphone" />
+          <div class="column2 col-lg-4 col-12">
+            <img src="./img/mid_phone.png" alt="midphone" class="midphone"/>
           </div>
-          <div class="col-lg-4 col-12 ps-5 d-flex flex-column justify-content-evenly">
+          <div
+            class="column3 col-lg-4 col-12 ps-5 d-flex flex-column justify-content-evenly"
+          >
             <div class="d-flex align-items-center justify-content-between">
               <div class="info-icon">
-                <i class="fal fa-paperclip"></i>
+                <i class="fas fa-pen"></i>
               </div>
               <div class="text-start ms-3">
-                <h4>Присоединяйся к событиям</h4>
+                <h4>Создавай свои события</h4>
                 <p>
-                  Находи интерисующии тебя события на главном экране и жми хочу
-                  пойти
+                  Жми на плюсик в главном меню, создавай свое событие и одобряй
+                  участие новых друзей
                 </p>
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-start my-5">
               <div class="info-icon">
-                <i class="fal fa-calendar-alt"></i>
+                <i class="fal fa-map-marker-alt"></i>
               </div>
               <div class="text-start ms-3">
-                <h4>Ищи события по фильтрам</h4>
-                <p>Для поиска событий мы предлагаем более 10 фильтров</p>
+                <h4>Оставляй метки на карте</h4>
+                <p>Отмечайся на карте, чтобы быстрее находить компанию</p>
               </div>
             </div>
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-start">
               <div class="info-icon">
-                <i class="fas fa-play"></i>
+                <i class="fal fa-comments"></i>
               </div>
               <div class="text-start ms-3">
-                <h4>Куда пойдут твои друзья?</h4>
-                <p>
-                  В любом профиле видны все события которые посещал пользователь
-                  или на которые планирует пойти
-                </p>
+                <h4>Чаты и беседы</h4>
+                <p>Общайся в чатах с друзьями, обсуждайте события в беседах</p>
               </div>
             </div>
           </div>
@@ -189,8 +192,49 @@
       </div>
     </main>
 
-
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container d-flex justify-content-center flex-wrap">
+        <div class="col-lg-4 col-12 pt-5">
+          <h4 class="text-white">About MOVEON</h4>
+          <p class="footer-text">
+            Moveon поможет найти единомышленников и собрать большую компанию в
+            одном месте.
+          </p>
+          <p class="footer-text text-mt">
+            Создавай свое событие куда бы ты хотел сходить, люди увидят твое
+            событие в ленте и желающие присоединятся к тебе.
+          </p>
+        </div>
+        <div class="col-lg-2 col-12"></div>
+        <div class="col-lg-2 col-12 pt-5 d-flex flex-column">
+          <h4 class="text-white">Наши Контакты</h4>
+          <a href="mailto:moveon-app@mail.ru" class="footer-text"
+            >moveon-app@mail.ru</a
+          >
+          <a href="mailto:businessdevelopermarket@gmail.com" class="footer-text"
+            >businessdevelopermarket@gmail.com</a
+          >
+          <a href="tel:+79002203434" class="footer-text">+79002203434</a>
+        </div>
+        <div class="col-lg-1 col-12"></div>
+        <div class="col-lg-2 col-12 pt-5">
+          <h4 class="text-white">Социальные сети</h4>
+          <div class="d-flex ">
+            <a class="footer-social" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="footer-social mx-5" href="#"
+              ><i class="fab fa-facebook-square "></i
+            ></a>
+            <a class="footer-social " href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container line py-2"></div>
+      <div class="container text-center">
+        <p class="text-white my-auto py-3">APP MOVEON @ 2021</p>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

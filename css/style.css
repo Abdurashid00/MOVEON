@@ -42,6 +42,11 @@ a {
   font-weight: 500;
 }
 
+.midphone{
+    max-width: 400px;
+    width: 100%;
+}
+
 .info-icon>i {
   width: 90px;
   height: 90px;
@@ -53,6 +58,62 @@ a {
   color: white;
   font-size: 35px;
 }
+.info-text{
+    color: rgba(176, 176, 176, 1);
+
+}
+
+.footer{
+    margin-top: 30px;
+    background: linear-gradient(179.98deg, #8253D8 15.43%, #D05DDE 99.97%);
+    min-height: 250px;
+}
+
+.footer-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: rgba(255, 255, 255, 1);
+text-align: start;
+}
+
+.text-mt{
+margin-top: -14px;
+}
+
+.footer-social{
+    font-size: 16px;
+    color: #8253d8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:992px) {
